@@ -1,6 +1,6 @@
 # ai-skill-issue
 
-Draft and file one GitHub issue that follows the repo's conventions, after checking for duplicates. Use when asked to create, file, or log an issue or bug.
+Draft and file one GitHub issue that follows the repo's conventions, after checking for duplicates. Use when asked to "create", "open", "file", or "raise" an issue, "log a bug", or "track this as an issue".
 
 ## Install
 

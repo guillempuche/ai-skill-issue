@@ -1,10 +1,10 @@
 ---
 name: issue
-description: Draft and file one GitHub issue that follows the repo's conventions, after checking for duplicates. Use when asked to create, file, or log an issue or bug.
+description: Draft and file one GitHub issue that follows the repo's conventions, after checking for duplicates. Use when asked to "create", "open", "file", or "raise" an issue, "log a bug", or "track this as an issue".
 license: MIT
 compatibility: Requires git. Issue creation assumes GitHub and the `gh` CLI; on another host the same drafting logic applies but the commands need translating.
 metadata:
-  version: 1.0.1
+  version: 1.0.2
   author: ai-standards
 allowed-tools: Bash(gh:*) Bash(rg:*) Bash(grep:*) Bash(mktemp:*) Bash(rm:*) Read Grep Glob Write AskUserQuestion
 ---
@@ -49,7 +49,7 @@ Read `.claude/git-workflow.md` — the same file `commit` and `pr` read — if p
 
 ### 1. Understand the ask, interview for gaps
 
-Classify the work as `bug`, `feature`, or `task`. Ask clarifying questions (AskUserQuestion or free-form) for anything material that's missing before drafting — e.g. repro steps + expected/actual for a bug, motivation + acceptance for a feature, definition-of-done for a task. Don't invent details; ask.
+Classify the work as `bug`, `feature`, or `task`. Ask clarifying questions (your agent's question tool, such as `AskUserQuestion` in Claude Code, or a plain message) for anything material that's missing before drafting — e.g. repro steps + expected/actual for a bug, motivation + acceptance for a feature, definition-of-done for a task. Don't invent details; ask.
 
 ### 2. Research the repo (grounding)
 
