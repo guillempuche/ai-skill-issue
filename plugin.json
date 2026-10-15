@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "issue",
+  "version": "1.0.2",
+  "description": "Draft and file one GitHub issue that follows the repo's conventions, after checking for duplicates. Use when asked to \"create\", \"open\", \"file\", or \"raise\" an issue, \"log a bug\", or \"track this as an issue\".",
+  "author": {
+    "name": "guillempuche",
+    "url": "https://github.com/guillempuche"
+  },
+  "homepage": "https://github.com/guillempuche/ai-skill-issue",
+  "repository": "https://github.com/guillempuche/ai-skill-issue",
+  "license": "MIT"
+}

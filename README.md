@@ -12,6 +12,13 @@ The [`skills`](https://github.com/vercel-labs/skills) CLI installs into Codex, O
 npx skills add guillempuche/ai-skill-issue
 ```
 
+### Codex CLI
+
+```bash
+codex plugin marketplace add guillempuche/ai-skill-issue
+codex plugin add issue@ai-skill-issue
+```
+
 ### Claude Code
 
 ```bash
@@ -26,6 +33,12 @@ npx skills add guillempuche/ai-skill-issue
 
 ```bash
 gemini skills install https://github.com/guillempuche/ai-skill-issue.git --path skills/issue
+```
+
+### Antigravity
+
+```bash
+agy plugin install https://github.com/guillempuche/ai-skill-issue
 ```
 
 ### Manual
